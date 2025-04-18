@@ -1,0 +1,11 @@
+.vscode
+*.code-workspace
+
+# Minecraft Stuff
+eula.txt
+logs
+crash-reports
+*cache*
+*tmp*
+config/bStats
+session.lock
