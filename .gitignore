@@ -1,6 +1,8 @@
 .vscode
 *.code-workspace
 
+/*/datapacks/better_survival
+
 # Minecraft Stuff
 eula.txt
 logs
