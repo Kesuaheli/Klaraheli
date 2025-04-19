@@ -11,3 +11,12 @@ crash-reports
 *tmp*
 config/bStats
 session.lock
+
+/config/pl3xmap/web/**/*.gz
+/config/pl3xmap/web/**/*.png
+/config/pl3xmap/web/**/.rms
+/config/pl3xmap/web/*.js
+/config/pl3xmap/web/*.html
+/config/pl3xmap/web/*.css
+/config/pl3xmap/web/*.map
+/config/pl3xmap/web/favicon.*
