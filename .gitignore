@@ -9,8 +9,19 @@ logs
 crash-reports
 *cache*
 *tmp*
+*.dat_old
+/libraries
+/versions
+/.fabric
+/*/advancements/*.json
+/*/playerdata/*.dat*
+/*/stats/*.json
 config/bStats
 session.lock
+
+chunks.dat
+raids*.dat
+random_sequences.dat
 
 /config/pl3xmap/web/**/*.gz
 /config/pl3xmap/web/**/*.png

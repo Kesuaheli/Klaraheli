@@ -2,7 +2,7 @@
   {
     "uuid": "e7374c29-382a-4a2d-8fb0-7623dca0c6ea",
     "name": "ServerSeekerV2",
-    "created": "2025-04-18 09:59:29 +0000",
+    "created": "2025-04-18 11:59:29 +0200",
     "source": "Server",
     "expires": "forever",
     "reason": "Banned by an operator."
@@ -10,7 +10,7 @@
   {
     "uuid": "8d590194-2ac8-43a8-b94b-86961a846aea",
     "name": "xerub",
-    "created": "2025-04-18 09:59:21 +0000",
+    "created": "2025-04-18 11:59:21 +0200",
     "source": "Server",
     "expires": "forever",
     "reason": "Banned by an operator."
