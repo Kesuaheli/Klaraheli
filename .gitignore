@@ -31,3 +31,4 @@ random_sequences.dat
 /config/pl3xmap/web/*.css
 /config/pl3xmap/web/*.map
 /config/pl3xmap/web/favicon.*
+DistantHorizons.sqlite*
