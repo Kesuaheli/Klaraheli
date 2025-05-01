@@ -1,0 +1,38 @@
+{
+  "pack": {
+    "pack_format": 71,
+    "description": [
+      {
+        "text": "\"Mob Heads\" (mobheads)"
+      },
+      "\n",
+      {
+        "text": "Mobs can drop their head when killed by a player",
+        "color": "#aaaaaa"
+      },
+      "\n\n",
+      {
+        "text": "Version "
+      },
+      {
+        "text": "4.0.1",
+        "color": "#55ff55"
+      },
+      {
+        "text": " for Minecraft "
+      },
+      {
+        "text": "1.21.5",
+        "color": "#55ff55"
+      },
+      "\n",
+      {
+        "text": "by "
+      },
+      {
+        "text": "Jodek",
+        "color": "#ffff55"
+      }
+    ]
+  }
+}
