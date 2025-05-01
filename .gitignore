@@ -14,8 +14,11 @@ crash-reports
 /versions
 /.fabric
 /*/advancements/*.json
+/*/entities/r.*.mca
 /*/playerdata/*.dat*
+/*/poi/r.*.mca
 /*/stats/*.json
+/*/region/r.*.mca
 config/bStats
 session.lock
 
