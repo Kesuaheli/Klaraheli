@@ -181,6 +181,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -335,10 +340,10 @@
               ]
             },
             {
-            "function": "minecraft:set_components",
-            "components": {
-            "minecraft:note_block_sound": "minecraft:entity.guardian.ambient"
-            }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.guardian.ambient"
+              }
             }
           ],
           "conditions": [

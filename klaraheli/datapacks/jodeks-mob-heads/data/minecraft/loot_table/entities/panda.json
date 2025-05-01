@@ -28,6 +28,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -182,10 +187,10 @@
               ]
             },
             {
-            "function": "minecraft:set_components",
-            "components": {
-            "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
-            }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
+              }
             }
           ],
           "conditions": [
@@ -221,6 +226,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -375,10 +385,10 @@
               ]
             },
             {
-            "function": "minecraft:set_components",
-            "components": {
-            "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
-            }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
+              }
             }
           ],
           "conditions": [
@@ -414,6 +424,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -568,10 +583,10 @@
               ]
             },
             {
-            "function": "minecraft:set_components",
-            "components": {
-            "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
-            }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
+              }
             }
           ],
           "conditions": [
@@ -607,6 +622,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -761,10 +781,10 @@
               ]
             },
             {
-            "function": "minecraft:set_components",
-            "components": {
-            "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
-            }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
+              }
             }
           ],
           "conditions": [
@@ -800,6 +820,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -954,10 +979,10 @@
               ]
             },
             {
-            "function": "minecraft:set_components",
-            "components": {
-            "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
-            }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
+              }
             }
           ],
           "conditions": [
@@ -993,6 +1018,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -1147,10 +1177,10 @@
               ]
             },
             {
-            "function": "minecraft:set_components",
-            "components": {
-            "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
-            }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
+              }
             }
           ],
           "conditions": [
@@ -1186,6 +1216,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -1215,7 +1250,7 @@
                 "italic": false,
                 "extra": [
                   {
-                    "text": " Head (Weak)" 
+                    "text": " Head (Weak)"
                   }
                 ]
               },
@@ -1340,10 +1375,10 @@
               ]
             },
             {
-            "function": "minecraft:set_components",
-            "components": {
-            "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
-            }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.panda.ambient"
+              }
             }
           ],
           "conditions": [

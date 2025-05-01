@@ -32,6 +32,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -227,6 +232,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -422,6 +432,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -617,6 +632,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -812,6 +832,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -1007,6 +1032,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -1202,6 +1232,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -1397,6 +1432,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -1592,6 +1632,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -1787,6 +1832,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
@@ -1982,6 +2032,11 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
               "count": 1
             },
             {
