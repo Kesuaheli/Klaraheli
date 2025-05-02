@@ -14,18 +14,16 @@ crash-reports
 /versions
 /.fabric
 /*/advancements/*.json
-/*/entities/r.*.mca
+/**/data/*.dat
+/**/entities/r.*.mca
 /*/playerdata/*.dat*
-/*/poi/r.*.mca
+/**/poi/r.*.mca
 /*/stats/*.json
-/*/region/r.*.mca
+/**/region/r.*.mca
 config/bStats
 session.lock
 
-chunks.dat
-raids*.dat
-random_sequences.dat
-
+/config/chunky/tasks/*/*properties
 /config/pl3xmap/web/**/*.gz
 /config/pl3xmap/web/**/*.png
 /config/pl3xmap/web/**/.rms
@@ -34,4 +32,5 @@ random_sequences.dat
 /config/pl3xmap/web/*.css
 /config/pl3xmap/web/*.map
 /config/pl3xmap/web/favicon.*
+/config/spark/activity.json
 DistantHorizons.sqlite*
