@@ -1,0 +1,227 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "id": [
+                    -518439016,
+                    1184517841,
+                    -1335491406,
+                    -1199358956
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2M4YzdjNWQwNTU2Y2Q2NjI5NzE2ZTM5MTg4YjIxZTdjMDQ3NzQ3OWYyNDI1ODdiZjE5ZTBiYzc2YjMyMjU1MSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "white",
+                "translate": "entity.minecraft.zoglin",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.zoglin": 0
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "yellow",
+                "translate": "entity.minecraft.zoglin",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.zoglin": 1
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "aqua",
+                "translate": "entity.minecraft.zoglin",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.zoglin": 2
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "dark_purple",
+                "translate": "entity.minecraft.zoglin",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.zoglin": 3
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "gold",
+                "translate": "entity.minecraft.zoglin",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.zoglin": 4
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "green",
+                "translate": "entity.minecraft.zoglin",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.zoglin": 5
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zoglin.ambient"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": {
+                "type": "minecraft:storage",
+                "storage": "mobheads:drop_rates",
+                "path": "zoglin"
+              }
+            },
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/zoglin"
+}

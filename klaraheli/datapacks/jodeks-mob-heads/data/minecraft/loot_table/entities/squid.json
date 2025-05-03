@@ -1,0 +1,227 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:ink_sac"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "better_survival:decapitate",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "id": [
+                    1105719917,
+                    -845659179,
+                    -1698244822,
+                    -1104066560
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM4YTQyYTgwYzcwYjI0MzY0M2VlNTAxNWU5ZDUxNDlhZjU0YWRlODNmZjU1YzIxNzlmOGE4YjNiMTA4MDVmNiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "white",
+                "translate": "entity.minecraft.squid",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.squid": 0
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "yellow",
+                "translate": "entity.minecraft.squid",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.squid": 1
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "aqua",
+                "translate": "entity.minecraft.squid",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.squid": 2
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "dark_purple",
+                "translate": "entity.minecraft.squid",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.squid": 3
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "gold",
+                "translate": "entity.minecraft.squid",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.squid": 4
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "green",
+                "translate": "entity.minecraft.squid",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " Head"
+                  }
+                ]
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "attacker",
+                  "scores": {
+                    "mobheads.rarity.squid": 5
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.squid.ambient"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": {
+                "type": "minecraft:storage",
+                "storage": "mobheads:drop_rates",
+                "path": "squid"
+              }
+            },
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/squid"
+}
