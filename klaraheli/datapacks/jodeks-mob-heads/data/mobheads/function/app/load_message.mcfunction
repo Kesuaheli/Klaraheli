@@ -1,4 +1,4 @@
-tellraw @a [\
+tellraw @a[predicate=better_survival:operator] [\
   "",\
   {\
     text: "[",\
