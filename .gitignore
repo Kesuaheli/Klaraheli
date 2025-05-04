@@ -2,6 +2,7 @@
 *.code-workspace
 
 /*/datapacks/better_survival
+/*/datapacks/elevator
 
 # Minecraft Stuff
 eula.txt
