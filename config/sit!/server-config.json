@@ -14,7 +14,7 @@
     "above": 1.0,
     "below": 1.0
   },
-  "custom-enabled": false,
+  "custom-enabled": true,
   "custom-blocks": [
     {
       "sitting-height": 0.437,
@@ -34,8 +34,7 @@
         "minecraft:polished_basalt"
       ],
       "block-tags": [
-        "#minecraft:logs",
-        "!#minecraft:oak_logs"
+        "#minecraft:logs"
       ],
       "blockstates": [
         "!axis=y"
