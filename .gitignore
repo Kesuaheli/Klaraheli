@@ -25,6 +25,8 @@ config/bStats
 session.lock
 
 /config/chunky/tasks/*/*properties
+/config/pl3xmap/web/**/settings.json
+/config/pl3xmap/web/**/pl3xmap_*.json
 /config/pl3xmap/web/**/*.gz
 /config/pl3xmap/web/**/*.png
 /config/pl3xmap/web/**/.rms

@@ -1,1 +1,0 @@
-{"name":"minecraft-overworld","tileUpdateInterval":10,"spawn":{"x":-32,"z":48},"center":{"x":-1,"z":-1},"zoom":{"default":0,"maxOut":2,"maxIn":2},"ui":{"link":"bottomright","coords":"bottomcenter","blockinfo":"bottomleft","attribution":true}}
