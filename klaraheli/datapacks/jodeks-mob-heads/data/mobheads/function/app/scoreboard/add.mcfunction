@@ -12,6 +12,8 @@ scoreboard objectives add mobheads.drop_notification_visibility dummy
 
 scoreboard objectives add mobheads.random dummy
 
+scoreboard objectives add shulkertwoshells.check dummy
+
 scoreboard objectives add mobheads.rarity.allay dummy
 scoreboard objectives add mobheads.rarity.armadillo dummy
 scoreboard objectives add mobheads.rarity.axolotl dummy

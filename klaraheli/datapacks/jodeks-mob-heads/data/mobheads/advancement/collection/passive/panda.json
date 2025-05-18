@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo"
+    },
+    "title": "Panda Heads",
+    "description": "Collect all panda heads",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mobheads:collection/passive",
+  "criteria": {
+    "bosses": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "mobheads:collection/passive/panda/aggressive": true,
+              "mobheads:collection/passive/panda/brown": true,
+              "mobheads:collection/passive/panda/lazy": true,
+              "mobheads:collection/passive/panda/normal": true,
+              "mobheads:collection/passive/panda/playful": true,
+              "mobheads:collection/passive/panda/weak": true,
+              "mobheads:collection/passive/panda/worried": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

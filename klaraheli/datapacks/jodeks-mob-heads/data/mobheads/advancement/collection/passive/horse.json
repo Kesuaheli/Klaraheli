@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": "Horse Heads",
+    "description": "Collect all horse heads",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mobheads:collection/passive",
+  "criteria": {
+    "bosses": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "mobheads:collection/passive/horse/black": true,
+              "mobheads:collection/passive/horse/brown": true,
+              "mobheads:collection/passive/horse/chestnut": true,
+              "mobheads:collection/passive/horse/creamy": true,
+              "mobheads:collection/passive/horse/darkbrown": true,
+              "mobheads:collection/passive/horse/gray": true,
+              "mobheads:collection/passive/horse/white": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

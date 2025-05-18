@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_wool"
+    },
+    "title": "Sheep Heads",
+    "description": "Collect all sheep heads",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mobheads:collection/passive",
+  "criteria": {
+    "bosses": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "mobheads:collection/passive/sheep/black": true,
+              "mobheads:collection/passive/sheep/blue": true,
+              "mobheads:collection/passive/sheep/brown": true,
+              "mobheads:collection/passive/sheep/cyan": true,
+              "mobheads:collection/passive/sheep/gray": true,
+              "mobheads:collection/passive/sheep/green": true,
+              "mobheads:collection/passive/sheep/light_blue": true,
+              "mobheads:collection/passive/sheep/light_gray": true,
+              "mobheads:collection/passive/sheep/lime": true,
+              "mobheads:collection/passive/sheep/magenta": true,
+              "mobheads:collection/passive/sheep/orange": true,
+              "mobheads:collection/passive/sheep/pink": true,
+              "mobheads:collection/passive/sheep/purple": true,
+              "mobheads:collection/passive/sheep/red": true,
+              "mobheads:collection/passive/sheep/white": true,
+              "mobheads:collection/passive/sheep/yellow": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

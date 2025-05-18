@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": "Axolotl Heads",
+    "description": "Collect all axolotl heads",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mobheads:collection/passive/trader_llama/white",
+  "criteria": {
+    "bosses": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "mobheads:collection/passive/axolotl/blue": true,
+              "mobheads:collection/passive/axolotl/cyan": true,
+              "mobheads:collection/passive/axolotl/gold": true,
+              "mobheads:collection/passive/axolotl/leucistic": true,
+              "mobheads:collection/passive/axolotl/wild": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

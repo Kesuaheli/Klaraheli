@@ -10,6 +10,16 @@
           "weight": 1,
           "functions": [
             {
+              "function": "minecraft:enchanted_count_increase",
+              "count": {
+                "type": "minecraft:storage",
+                "storage": "mobheads:looting",
+                "path": "count_increase"
+              },
+              "limit": 1,
+              "enchantment": "minecraft:looting"
+            },
+            {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:note_block_sound": "minecraft:entity.allay.ambient_with_item"

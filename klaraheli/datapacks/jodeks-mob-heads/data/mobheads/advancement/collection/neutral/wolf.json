@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": "Wolf Heads",
+    "description": "Collect all wolf heads",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mobheads:collection/neutral",
+  "criteria": {
+    "bosses": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "mobheads:collection/neutral/wolf/black": true,
+              "mobheads:collection/neutral/wolf/ashen": true,
+              "mobheads:collection/neutral/wolf/pale": true,
+              "mobheads:collection/neutral/wolf/chestnut": true,
+              "mobheads:collection/neutral/wolf/snowy": true,
+              "mobheads:collection/neutral/wolf/spotted": true,
+              "mobheads:collection/neutral/wolf/rusty": true,
+              "mobheads:collection/neutral/wolf/woods": true,
+              "mobheads:collection/neutral/wolf/striped": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

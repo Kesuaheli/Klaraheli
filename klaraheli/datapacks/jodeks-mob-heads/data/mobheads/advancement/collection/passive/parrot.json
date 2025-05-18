@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat_seeds"
+    },
+    "title": "Parrot Heads",
+    "description": "Collect all parrot heads",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mobheads:collection/passive",
+  "criteria": {
+    "bosses": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "mobheads:collection/passive/parrot/gray": true,
+              "mobheads:collection/passive/parrot/blue": true,
+              "mobheads:collection/passive/parrot/green": true,
+              "mobheads:collection/passive/parrot/red_blue": true,
+              "mobheads:collection/passive/parrot/yellow_blue": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

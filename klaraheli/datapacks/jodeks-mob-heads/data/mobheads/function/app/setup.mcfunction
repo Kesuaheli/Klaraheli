@@ -13,12 +13,10 @@ function mobheads:app/storage/set
 # Load the config values
 function mobheads:config/drop_rates
 function mobheads:config/rarity
+function mobheads:config/drop_messages
 
 # Print the image
 function mobheads:config/image
-
-# Reload advancements
-function mobheads:app/advancement/reload
 
 # Init chat config
 function mobheads:chat_config/init

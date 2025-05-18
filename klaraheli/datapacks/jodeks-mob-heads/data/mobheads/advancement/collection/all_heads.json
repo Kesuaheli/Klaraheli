@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_head"
+    },
+    "title": "All the heads",
+    "description": "Collect all the heads",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mobheads:collection/root",
+  "criteria": {
+    "bosses": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "mobheads:collection/bosses": true,
+              "mobheads:collection/hostile": true,
+              "mobheads:collection/passive": true,
+              "mobheads:collection/neutral": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

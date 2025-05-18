@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": "Cat Heads",
+    "description": "Collect all cat heads",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mobheads:collection/passive",
+  "criteria": {
+    "bosses": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "mobheads:collection/passive/cat/black": true,
+              "mobheads:collection/passive/cat/british_shorthair": true,
+              "mobheads:collection/passive/cat/calico": true,
+              "mobheads:collection/passive/cat/jellie": true,
+              "mobheads:collection/passive/cat/persian": true,
+              "mobheads:collection/passive/cat/ragdoll": true,
+              "mobheads:collection/passive/cat/red": true,
+              "mobheads:collection/passive/cat/siamese": true,
+              "mobheads:collection/passive/cat/tabby": true,
+              "mobheads:collection/passive/cat/white": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

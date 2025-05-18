@@ -2,8 +2,50 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ],
       "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "&active"
+            },
+            "score": "shulkertwoshells.check"
+          },
+          "range": 1
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "&active"
+            },
+            "score": "shulkertwoshells.check"
+          },
+          "range": 0
+        },
         {
           "condition": "minecraft:random_chance_with_enchanted_bonus",
           "enchanted_chance": {
@@ -21,7 +63,7 @@
           "name": "minecraft:shulker_shell"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "rolls": 1,

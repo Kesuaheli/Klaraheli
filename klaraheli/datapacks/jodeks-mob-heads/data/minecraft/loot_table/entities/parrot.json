@@ -209,7 +209,11 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.7
+              "chance": {
+                "type": "minecraft:storage",
+                "storage": "mobheads:drop_rates",
+                "path": "parrot"
+              }
             },
             {
               "condition": "minecraft:entity_properties",

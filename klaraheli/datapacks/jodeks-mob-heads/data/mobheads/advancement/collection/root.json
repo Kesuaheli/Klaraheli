@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": "Mob Heads Collection",
+    "description": "Collection of all mob heads you've got",
+    "background": "minecraft:block/flowering_azalea_leaves",
+    "frame": "challenge",
+    "show_toast": false,
+    "hidden": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "bosses": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
