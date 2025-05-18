@@ -5,7 +5,7 @@ settings:
   language-file: lang-de.yml
   # Set the web address players use to connect to your map. This
   # is only used for the client mod to know where to connect.
-  web-address: http://klara.kesuaheli.de
+  web-address: https://klara.kesuaheli.de
   web-directory:
     # The directory that houses the website and world tiles.
     # This is a relative path from Pl3xMap's plugin directory,
