@@ -1,0 +1,12 @@
+[submodule "klaraheli/datapacks/jodeks-mob-heads"]
+	path = klaraheli/datapacks/jodeks-mob-heads
+	url = https://github.com/Kesuaheli/Jodeks-Mob-Heads.git
+[submodule "klaraheli/datapacks/BackCrafting"]
+	path = klaraheli/datapacks/BackCrafting
+	url = https://github.com/Kesuaheli/BackCrafting.git
+[submodule "klaraheli/datapacks/elevator"]
+	path = klaraheli/datapacks/elevator
+	url = https://github.com/Kesuaheli/elevator-pack.git
+[submodule "klaraheli/datapacks/better_survival"]
+	path = klaraheli/datapacks/better_survival
+	url = https://github.com/Kesuaheli/better_survival.git

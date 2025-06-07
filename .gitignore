@@ -1,10 +1,6 @@
 .vscode
 *.code-workspace
 
-/*/datapacks/better_survival
-/*/datapacks/elevator
-/*/datapacks/jodeks-mob-heads
-
 # Minecraft Stuff
 eula.txt
 logs
