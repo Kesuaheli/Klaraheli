@@ -1,5 +1,5 @@
 {
-  "version": 2.2,
+  "version": 2.3,
   "lang": "de_de",
   "lang-options": "en_us, it_it, pt_br, tr_tr, zh_tw, zh_ch, de_de",
   "keep-active": true,
@@ -76,6 +76,24 @@
         "#c:villager_job_sites",
         "#minecraft:trapdoors",
         "#c:chests"
+      ],
+      "blockstates": []
+    }
+  ],
+  "allowed-above-seat": [
+    {
+      "block-ids": [],
+      "block-tags": [
+        "#minecraft:trapdoors"
+      ],
+      "blockstates": [
+        "open=true"
+      ]
+    },
+    {
+      "block-ids": [],
+      "block-tags": [
+        "#minecraft:doors"
       ],
       "blockstates": []
     }

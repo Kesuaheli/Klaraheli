@@ -1,0 +1,1 @@
+tellraw @a "§x§a§e§r§o§w§m§n§e§t§h§e§r§i§s§f§a§i§r"
