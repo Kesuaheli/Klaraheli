@@ -25,6 +25,7 @@ session.lock
 
 /config/better-fabric-console/**/*.xml
 /config/chunky/tasks/*/*properties
+/config/command_crafter.properties
 /config/pl3xmap/web/**/settings.json
 /config/pl3xmap/web/**/pl3xmap_*.json
 /config/pl3xmap/web/**/*.gz
@@ -37,3 +38,4 @@ session.lock
 /config/pl3xmap/web/favicon.*
 /config/spark/activity.json
 DistantHorizons.sqlite*
+/mods/command-crafter*.jar
