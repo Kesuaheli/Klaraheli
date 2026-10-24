@@ -1,6 +1,6 @@
 [submodule "klaraheli/datapacks/jodeks-mob-heads"]
 	path = klaraheli/datapacks/jodeks-mob-heads
-	url = https://github.com/Kesuaheli/Jodeks-Mob-Heads.git
+	url = https://codeberg.org/jodeks-datapacks/Mob-Heads.git
 [submodule "klaraheli/datapacks/BackCrafting"]
 	path = klaraheli/datapacks/BackCrafting
 	url = https://github.com/Kesuaheli/BackCrafting.git

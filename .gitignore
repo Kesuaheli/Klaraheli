@@ -2,27 +2,32 @@
 *.code-workspace
 
 # Minecraft Stuff
-eula.txt
+/eula.txt
+/ops.json
+/whitelist.json
 logs
 crash-reports
 *cache*
 *tmp*
-*.dat_old
+*.backup0
+/*/level.dat*
 /libraries
 /versions
 /.console_history
 /.fabric
-/*/advancements/*.json
-/**/data/*.dat
-/**/entities/r.*.mca
-/*/playerdata/*.dat*
-/**/poi/r.*.mca
-/*/stats/*.json
-/**/region/r.*.mca
+/*/players
+/*/data/**/*.dat
+!/*/data/minecraft/game_rules.dat
+/*/dimensions/*/*/data/**/*.dat
+/*/dimensions/*/*/entities/r.*.mca
+/*/dimensions/*/*/poi/r.*.mca
+/*/dimensions/*/*/region/r.*.mca
 config/bStats
 session.lock
 
+/config/better-fabric-console/**/*.xml
 /config/chunky/tasks/*/*properties
+/config/command_crafter.properties
 /config/pl3xmap/web/**/settings.json
 /config/pl3xmap/web/**/pl3xmap_*.json
 /config/pl3xmap/web/**/*.gz
@@ -33,5 +38,7 @@ session.lock
 /config/pl3xmap/web/*.css
 /config/pl3xmap/web/*.map
 /config/pl3xmap/web/favicon.*
+/config/remote-whitelist/connection.yaml
 /config/spark/activity.json
 DistantHorizons.sqlite*
+/mods/command-crafter*.jar
