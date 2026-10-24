@@ -2,7 +2,9 @@
 *.code-workspace
 
 # Minecraft Stuff
-eula.txt
+/eula.txt
+/ops.json
+/whitelist.json
 logs
 crash-reports
 *cache*
@@ -36,6 +38,7 @@ session.lock
 /config/pl3xmap/web/*.css
 /config/pl3xmap/web/*.map
 /config/pl3xmap/web/favicon.*
+/config/remote-whitelist/connection.yaml
 /config/spark/activity.json
 DistantHorizons.sqlite*
 /mods/command-crafter*.jar
