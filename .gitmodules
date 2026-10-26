@@ -10,3 +10,6 @@
 [submodule "klaraheli/datapacks/better_survival"]
 	path = klaraheli/datapacks/better_survival
 	url = https://github.com/Kesuaheli/better_survival.git
+[submodule "klaraheli/datapacks/5555ff-lib"]
+	path = klaraheli/datapacks/5555ff-lib
+	url = https://codeberg.org/Kesuaheli/5555ff-lib.git
