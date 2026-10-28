@@ -42,3 +42,4 @@ session.lock
 /config/spark/activity.json
 DistantHorizons.sqlite*
 /mods/command-crafter*.jar
+/*/serverconfig/readme.txt
