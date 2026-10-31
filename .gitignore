@@ -28,6 +28,8 @@ session.lock
 /config/better-fabric-console/**/*.xml
 /config/chunky/tasks/*/*properties
 /config/command_crafter.properties
+/config/patpat/patpat.json5
+/config/patpat/*.txt
 /config/pl3xmap/web/**/settings.json
 /config/pl3xmap/web/**/pl3xmap_*.json
 /config/pl3xmap/web/**/*.gz
