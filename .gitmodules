@@ -13,3 +13,6 @@
 [submodule "klaraheli/datapacks/5555ff-lib"]
 	path = klaraheli/datapacks/5555ff-lib
 	url = https://codeberg.org/Kesuaheli/5555ff-lib.git
+[submodule "Graves"]
+	path = klaraheli/datapacks/Graves
+	url = https://github.com/Kesuaheli/Graves-Only
