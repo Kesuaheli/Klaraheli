@@ -30,16 +30,7 @@ session.lock
 /config/command_crafter.properties
 /config/patpat/patpat.json5
 /config/patpat/*.txt
-/config/pl3xmap/web/**/settings.json
-/config/pl3xmap/web/**/pl3xmap_*.json
-/config/pl3xmap/web/**/*.gz
-/config/pl3xmap/web/**/*.png
-/config/pl3xmap/web/**/.rms
-/config/pl3xmap/web/*.js
-/config/pl3xmap/web/*.html
-/config/pl3xmap/web/*.css
-/config/pl3xmap/web/*.map
-/config/pl3xmap/web/favicon.*
+/config/pl3xmap/web
 /config/remote-whitelist/connection.yaml
 /config/spark/activity.json
 DistantHorizons.sqlite*
