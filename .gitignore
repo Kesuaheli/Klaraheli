@@ -33,6 +33,7 @@ session.lock
 /config/pl3xmap/web
 /config/remote-whitelist/connection.yaml
 /config/spark/activity.json
+/config/transfer-shutdown/config.yaml
 DistantHorizons.sqlite*
 /mods/command-crafter*.jar
 /*/serverconfig/readme.txt
